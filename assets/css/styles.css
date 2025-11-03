@@ -179,6 +179,12 @@ button {
   text-decoration: none;
 }
 
+.site-header__branding svg {
+  height: 3rem;
+  width: auto;
+  margin-top: 1.5rem;
+}
+
 .site-header__buttons {
   justify-self: end;
   display: flex;
@@ -517,6 +523,10 @@ button {
       display: none;
     }
 
+    .site-header__branding svg {
+      height: 2.5rem;
+    }
+
     .site-header__inner {
       grid-template-columns: 1fr 1fr;
     }
@@ -536,6 +546,10 @@ button {
 
   /* 768px */
   @media screen and (max-width: 768px) {
+    .site-header__branding svg {
+      height: 2rem;
+    }
+    
     .blog {
       grid-column: full;
       padding: 5rem 2rem;

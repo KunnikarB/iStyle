@@ -578,6 +578,9 @@ button {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1.5rem;
   }
+  .single-product__title {
+    font-size: 1.5rem;
+  }
 }
 
 /* 640px */
@@ -599,6 +602,10 @@ button {
 
   .site-header__inner {
     padding: 0 0.5rem;
+  }
+
+  .single-product__title {
+    font-size: 1.25rem;
   }
 
   .hero {
