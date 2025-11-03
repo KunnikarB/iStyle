@@ -1,7 +1,7 @@
 :root {
   --font-family: 'Inter', sans-serif;
 
-  --color-primary: 	#ff74d4;
+  --color-primary: 	#f551f5;
   --color-secondary: #fff;
   --color-dark-gray: #999;
   --color-light-gray: #FBFBFB;
@@ -549,7 +549,7 @@ button {
     .site-header__branding svg {
       height: 2rem;
     }
-    
+
     .blog {
       grid-column: full;
       padding: 5rem 2rem;
