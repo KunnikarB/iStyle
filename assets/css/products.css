@@ -470,6 +470,8 @@ button {
 
   .details__summary--rating {
     display: flex;
+    align-items: center;
+    gap: 2rem;
   }
 
   .rating {
@@ -483,7 +485,7 @@ button {
 
   .rating__filled {
     overflow: hidden;
-    max-width: 50%;
+    max-width: 90%;
   }
 
   /* HERO */
